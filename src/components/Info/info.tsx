@@ -1,4 +1,5 @@
 import React from 'react';
+import { Actions } from '../Actions/Actions';
 import { Keyboard } from '../Keyboard/Keyboard';
 export function Info() {
   const template = (
@@ -8,17 +9,7 @@ export function Info() {
         <div className="keyboard-container">
           <Keyboard></Keyboard>
         </div>
-        <div className="actions">
-          <span className="number">667359961</span>
-
-          <a href="#" className="call">
-            Call
-          </a>
-
-          <a href="#" className="hang active">
-            Hang
-          </a>
-        </div>
+        <Actions></Actions>
       </main>
     </div>
   );
