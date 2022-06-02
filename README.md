@@ -15,8 +15,8 @@ Aquí tienes la maquetación HTML/CSS de una aplicación, tendrás que programar
 
 Separa todo en los siguientes componentes:
 
-- Info
-- Display
+- Info ()
+- Display (pinta los numeros proporcionados por )
 - Actions
   - Action
 - Keyboard
