@@ -18,7 +18,7 @@ describe('Given the component Keyboard', () => {
   ];
   describe('When calling it with a key', () => {
     test('Then it should be rendered', () => {
-      render(<Keyboard item={mockKeyboard} />);
+      render(<Keyboard />);
 
       // Assert
       expect(screen.getAllByRole('listitem')).toHaveLength(mockKeyboard.length);
