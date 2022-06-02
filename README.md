@@ -15,7 +15,7 @@ Aquí tienes la maquetación HTML/CSS de una aplicación, tendrás que programar
 
 Separa todo en los siguientes componentes:
 
-- Info ( El padre de Todos )
+- Info ( El padre de Todos contenedor de todos )
 - Display (Pinta los numeros proporcionados por Context )
 - Actions ( Componente padre acciones de los botones principales)
   - Action ( Componente encargado de definir los botonos "Llamar" y "Colgar" )
